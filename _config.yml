@@ -16,7 +16,7 @@
 title: Internetworking of Things (IoT)
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  This site is your hub for everything IoT — from low-power embedded devices to cloud-scale data pipelines. Here you’ll find the full syllabus, weekly lecture slides, detailed lab guides, and reference code that walk you through designing, networking, and securing connected devices. The Projects section showcases student prototypes and demos, while the Resources page curates key standards (MQTT, CoAP, IPv6/6LoWPAN), tooling tutorials, and research papers to deepen your understanding. Check the Schedule for assignment deadlines and live-demo dates, and join the Discussion board to collaborate with peers and instructors throughout the semester.
+  This site is the central hub for the Internetworking of Things course, providing the syllabus, lecture slides, lab guides, code samples, student project demos, and curated resources on protocols like MQTT, CoAP, and IPv6/6LoWPAN.
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
