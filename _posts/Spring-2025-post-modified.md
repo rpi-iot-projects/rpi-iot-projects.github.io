@@ -1,14 +1,19 @@
 ---
-title: "Post: Modified Date"
-last_modified_at: 2016-03-09T16:20:02-05:00
-categories:
-  - Blog
-tags:
-  - Post Formats
-  - readability
-  - standard
+layout: project
+title: "Smart Lock System"
+team: "Team 2"
+github_link: "https://github.com/rpi-iot-projects/Team-2-Smart-Lock-System"
+description: "A secure and robust IoT-based smart lock system using STM32U585-IOT02 board with secure authentication and remote control capabilities."
+image: "/assets/images/projects/smart-lock-thumbnail.jpg"
 ---
 
-This post has been updated and should show a modified date if used in a layout.
+## Smart Lock System
 
-All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, "Oh, why can't you remain like this for ever!" This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.
+A secure IoT-based smart lock system with STM32U585-IOT02 board featuring:
+
+- **App**: Simple Python application for user authentication and remote control
+- **Controller**: STM32U585-IOT02 firmware based on templates from the [ST STM32U5 repo](https://github.com/STMicroelectronics/STM32CubeU5)
+- **Security**: Hardware-level protection and secure authentication protocols
+- **Remote Access**: Control your lock from anywhere via mobile app
+
+[View on GitHub](https://github.com/rpi-iot-projects/Team-2-Smart-Lock-System)
