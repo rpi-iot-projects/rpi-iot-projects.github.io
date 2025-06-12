@@ -99,7 +99,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       Arşivdekiler
       # @end locale config
-    url: /projects/
+    url: https://github.com/rpi-iot-projects/rpi-iot-projects.github.io/blob/main/_data/projects.yml
 
   - titles:
       # @start locale config
