@@ -1,0 +1,214 @@
+.header {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background: $header-background;
+  a {
+    font-weight: map-get($base, font-weight);
+    text-decoration: none !important;
+    @include link-colors($header-text-color, $main-color-1);
+  }
+  .main {
+    @include flexbox();
+    @include media-breakpoint-down(mdplus) {
+      @include flex-direction(column);
+      padding: map-get($spacers, 2);
+    }
+  }
+}
+
+.header--dark {
+  @extend .text--dark;
+  background: rgba(#182B49, .15);
+  .navigation__item--active {
+    &::after {
+      @include split-line(bottom, 4px, $text-color-theme-dark);
+    }
+  }
+}
+
+.header--light {
+  @extend .text--light;
+  background: rgba(#fff, .15);
+  .navigation__item--active {
+    &::after {
+      @include split-line(bottom, 4px, $text-color-theme-light);
+    }
+  }
+}
+
+.header__title {
+  @include menu(3, 0);
+  @include align-items(center);
+  @include flex-wrap(nowrap);
+  @include flex(1);
+  height: map-get($layout, header-height);
+  margin-right: map-get($spacers, 3);
+  white-space: nowrap;
+  @include media-breakpoint-down(md) {
+    height: auto;
+    margin-right: 0;
+  }
+  & > .header__brand {
+    @include flex(1);
+    @include media-breakpoint-down(md) {
+      height: map-get($layout, header-height-sm);
+    }
+  }
+  & > .search-button {
+    display: none;
+    margin-left: map-get($spacers, 2);
+    @include media-breakpoint-down(md) {
+      @include flexbox();
+    }
+  }
+}
+
+.header__brand {
+  @include flexbox();
+  @include align-items(center);
+  & > svg {
+    overflow: visible;
+    width: map-get($base, font-size-h4) * 1.6;
+    height: map-get($base, font-size-h4) * 1.6;
+    margin-right: map-get($spacers, 3);
+    vertical-align: middle;
+    @include media-breakpoint-down(md) {
+      width: map-get($base, font-size-h4) * 1.2;
+      height: map-get($base, font-size-h4) * 1.2;
+    }
+  }
+  & > a {
+    display: inline-block;
+    font-size: map-get($base, font-size-h4);
+    @include media-breakpoint-down(md) {
+      font-size: map-get($base, font-size-h4-small);
+    }
+  }
+}
+
+.navigation {
+  @include overflow(auto, "x");
+
+  &.collapsed {
+    @include media-breakpoint-down(mdplus) {
+      display: none;
+    }
+  }
+
+  & > ul {
+    height: map-get($layout, header-height);
+    padding-bottom: 0;
+    margin: 0;
+
+    @include media-breakpoint-down(mdplus) {
+      padding-bottom: 4px;
+      margin: -4px 0 0 0;
+    }
+
+    @include menu(3, 2, nowrap);
+    @include align-items(center);
+
+    @include media-breakpoint-down(mdplus) {
+      height: auto;
+      @include menu(0, 2, nowrap);
+      @include menu-direction("vertical");
+    }
+
+    .search-button {
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+    }
+  }
+}
+
+.navigation__item {
+  &::after {
+    display: block;
+    margin-bottom: -4px;
+    content: "";
+    @include split-line(bottom, 4px, transparent);
+  }
+}
+.navigation__item--active {
+  a {
+    @include link-colors($main-color-1, $main-color-1);
+  }
+  &::after {
+    @include split-line(bottom, 4px, $main-color-1);
+  }
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation li a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.navigation ul ul {
+  @include media-breakpoint-up(mdplus) {
+    position: absolute;
+  }
+  display: none;
+}
+
+.navigation ul ul li {
+  display: block;
+}
+
+.navigation li.hovered ul {
+  @include media-breakpoint-down(mdplus) {
+    display: block;
+    overflow: visible;
+    background-color: #2b4d85;
+    z-index: 1;
+  }
+}
+
+.navigation li:hover ul {
+  @include media-breakpoint-up(mdplus) {
+    display: block;
+    overflow: visible;
+    background-color: #182B49;
+    z-index: 1;
+  }
+}
+
+.navigation ul ul li a:hover {
+  background-color: #555;
+}
+
+.navigation ul li a span {
+  margin-left: map-get($spacers, 2);
+  font-size: map-get($base, font-size-h6);
+}
+
+.nav-bar-toggle {
+  display: block;
+  color: #fff;
+
+  margin: auto auto auto 0;
+
+  @include flexbox();
+
+  &>span>svg {
+    color: #fff;
+    scale: 1.5;
+  }
+
+  @include media-breakpoint-up(mdplus) {
+    display: none;
+  }
+}
