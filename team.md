@@ -50,17 +50,17 @@ permalink: team/
   <div class="cell cell--12 cell--md-4 cell--lg-3">
     <div class="card card--flat">
       <div class="card__image">
-        <img class="image" src="/assets/images/teampic/dinesh.jpg" />
+        <img class="image" src="/assets/images/teampic/ish.jpg" />
             <div class="overlay overlay--bottom">
               <header>
-                <p><a href="https://dineshb-ucsd.github.io/">Dinesh Bharadia</a></p>
-                <p><i style="color: #dddddd">Principal Investigator, Associate Professor ECE</i></p>
+                <p><a href="https://ishjain.github.io/">Ish Kumar Jain</a></p>
+                <p><i style="color: #dddddd">Course Instructor, Assistant Professor ECSE</i></p>
               </header>
             </div>
       </div>
     </div>
   </div>
-  <div class="cell cell--12 cell--md-4 cell--lg-3">
+  <!-- <div class="cell cell--12 cell--md-4 cell--lg-3">
     <div class="card card--flat">
       <div class="card__image">
         <img class="image" src="/assets/images/teampic/fred.jpg" />
@@ -72,12 +72,12 @@ permalink: team/
             </div>
       </div>
     </div>
-  </div>
-</div>
+  </div> -->
+<!-- </div> -->
 
 
-<h3>PhD Students</h3>
-<div class="article-list grid grid--sm grid--p-3">
+<!-- <h3>TA</h3> -->
+<!-- <div class="article-list grid grid--sm grid--p-3">
   {% for people in site.data.people %}
     {% if people.role == "PhD" %}
       <div class="cell cell--12 cell--md-4 cell--lg-3">
@@ -99,10 +99,10 @@ permalink: team/
       </div>
     {% endif %}
   {% endfor %}
-</div>
+</div> -->
 
 
-<h3>Collaborations and Postdoctoral Researchers</h3>
+<!-- <h3>Collaborations and Postdoctoral Researchers</h3>
 <div class="article-list grid grid--sm grid--p-3">
 {% for people in site.data.people %}
   {% if people.role != "PhD" and people.role != "Principal Investigator" %}
@@ -178,7 +178,7 @@ permalink: team/
   {% assign alumni_without_pics = site.data.alumni | where_exp: "item", "item.picture == nil" %}
 
   <!-- Alumni with Pictures -->
-  {% for people in alumni_with_pics %}
+  <!-- {% for people in alumni_with_pics %}
     {% if people.role == "PhD" %}
       <div class="cell cell--12 cell--md-4 cell--lg-3">
         <div class="card card--flat">
@@ -198,10 +198,10 @@ permalink: team/
         </div>
       </div>
     {% endif %}
-  {% endfor %}
+  {% endfor %} -->
 
   <!-- Alumni without Pictures -->
-  <div class="list-group">
+  <!-- <div class="list-group">
     {% for people in alumni_without_pics %}
       {% if people.role == "PhD" %}
         <div class="cell cell--12 cell--md-4 cell--lg-3">
@@ -221,10 +221,10 @@ permalink: team/
       {% endif %}
     {% endfor %}
   </div>
-</div>
+</div> -->
 
  
-<h4>Postdocs and Researchers</h4>
+<!-- <h4>Postdocs and Researchers</h4>
 <div class="article-list grid grid--sm grid--p-3">
   {% assign alumni_with_pics = site.data.alumni | where_exp: "item", "item.picture" %}
   {% assign alumni_without_pics = site.data.alumni | where_exp: "item", "item.picture == nil" %}
@@ -310,9 +310,9 @@ permalink: team/
       {% endif %}
     {% endfor %}
   </div>
-</div>
+</div> -->
 
-<div class="row">
+<!-- <div class="row">
   <h4>Undergraduate</h4>
   <div class="column">
     {% for people in site.data.alumni %}
@@ -348,9 +348,9 @@ permalink: team/
       {% endif %}
     {% endfor %}
   </div>
-</div>
+</div> -->
 
-<div class="row">
+<!-- <div class="row">
   <h4>International Summer Interns</h4>
   <div class="column">
     {% for people in site.data.alumni %}
@@ -367,8 +367,8 @@ permalink: team/
           </div>
         {% endif %}
       {% endif %}
-    {% endfor %}
-  </div>
+    {% endfor %} -->
+  <!-- </div>
   <div class="column">
     {% for people in site.data.alumni %}
       {% if people.role == "Intern" %}
@@ -385,5 +385,5 @@ permalink: team/
         {% endif %}
       {% endif %}
     {% endfor %}
-  </div>
-</div>
+  </div> -->
+<!-- </div> -->

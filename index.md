@@ -2,15 +2,15 @@
 layout: article
 aside:
   news: true
-title: Wireless Communications Sensing and Networking
+title: InterNetworking of Things course website
 carousels:
-  - images:
-    - image: /assets/images/picpic/graduation_2023.jpg
-    - image: /assets/images/picpic/birch_2022.jpg
-    - image: /assets/images/picpic/roshan_graduation.jpg
-    - image: /assets/images/picpic/diwali.jpg
-    - image: /assets/images/picpic/frisbee.jpg
-    - image: /assets/images/picpic/manibday.jpg
+  # - images:
+  #   - image: /assets/images/picpic/graduation_2023.jpg
+  #   - image: /assets/images/picpic/birch_2022.jpg
+  #   - image: /assets/images/picpic/roshan_graduation.jpg
+  #   - image: /assets/images/picpic/diwali.jpg
+  #   - image: /assets/images/picpic/frisbee.jpg
+  #   - image: /assets/images/picpic/manibday.jpg
 # article_header:
 #   type: overlay
 #   theme: dark
@@ -26,25 +26,25 @@ carousels:
   }
 </style>
 
-Our mission is to tackle significant real-world problems by identifying key challenges and developing groundbreaking solutions. We adopt a holistic research approach, blending rigorous theoretical exploration with practical implementations. Through this integrated process, we create, test, and refine prototypes, ensuring that our innovations are not only pioneering but also practical and ready for real-world application. Our cycle of continuous improvement drives us to adapt and evolve our solutions to meet changing needs effectively.
+Welcome to Internetworking of Things, taught by Dr. Ish Kumar Jain, Assistant Professor in Electrical, Computer, and Systems Engineering at Rensselaer Polytechnic Institute. This course examines the protocols and architectures that enable communication among diverse devices—from low-power sensors at the edge to scalable cloud services. Topics include IPv6, MQTT, CoAP, security mechanisms, and performance tuning, delivered through concise lectures, practical labs, and collaborative projects. Prepare to acquire the skills needed to design, deploy, and evaluate modern IoT systems in an ever-more connected world.
 <!-- #### Mission Statement
 <!-- 
 The mission of the overall group is to solve real-world problems by first identifying the right problems to solve, then creating a theoretical model and theoretical breakthrough and practical realization of those solutions, and iterate! --> 
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+<!-- {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 #### Research Overview
-Our research group is at the forefront of developing innovative sensing, communication, and networking technologies to transform robotics, autonomous systems, and everyday devices. We tackle the full spectrum of challenges, from building an initial system prototype to understanding real problems, then developing a theoretical model, coming up with theoretical breakthroughs to practical prototype development for breakthroughs, and finally, deployment in the real world.
+Our research group is at the forefront of developing innovative sensing, communication, and networking technologies to transform robotics, autonomous systems, and everyday devices. We tackle the full spectrum of challenges, from building an initial system prototype to understanding real problems, then developing a theoretical model, coming up with theoretical breakthroughs to practical prototype development for breakthroughs, and finally, deployment in the real world. -->
 
 
 
-#### Key Research Areas 
+<!-- #### Key Research Areas 
 
 <div><a href="https://wcsng.ucsd.edu/wireless-sensing.html"><img src="/assets/images/main_page/Slide2.JPG"  width="100%"/></a></div><hr>
 <div><a href="https://wcsng.ucsd.edu/communication.html"><img src="/assets/images/main_page/Slide1.JPG"  width="100%"/></a></div><hr>
 <div><a href="https://wcsng.ucsd.edu/backscatter.html"><img src="/assets/images/main_page/Slide3.JPG"  width="100%"/></a></div><hr>
 <div><a href="https://wcsng.ucsd.edu/spectrum_sensing.html"><img src="/assets/images/main_page/Slide4.JPG"  width="100%"/></a></div><hr>
 <div><a href="https://wcsng.ucsd.edu/vehicular.html"><img src="/assets/images/main_page/Slide5.JPG"  width="100%"/></a></div><hr>
-<div><a href="https://wcsng.ucsd.edu/privacy.html"><img src="/assets/images/main_page/Slide6.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://wcsng.ucsd.edu/privacy.html"><img src="/assets/images/main_page/Slide6.JPG"  width="100%"/></a></div><hr> -->
 
 
 

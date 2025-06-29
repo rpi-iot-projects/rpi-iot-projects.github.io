@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Group Pictures
 ---
@@ -7,4 +7,4 @@ We organize many group events with WCSNG family on special ocassions such as sum
 
 <div>
   {%- include article-list.html articles=site.data.pictures type='grid' size='lg' -%}
-</div>
+</div> -->
