@@ -33,7 +33,7 @@ carousels:
 **Laboratory:** JEC 5312  
 **Laboratory Access:** 7:00 AM – 10:00 PM (for registered students) -->
 
----
+
 
 ## Websites / Platforms
 - **Piazza:** for accessing lecture material and discussions
@@ -54,7 +54,7 @@ Basic understanding of computer organization, operating systems, and networks. A
 
 *Office/Lab Hours:* Mon–Fri, 5–6 PM -->
 
----
+
 
 ## Course Description
 The course provides an in-depth study of the technologies and protocols involved in building the Internet-of-Things (IoT), with specific focus on networking at the edge of the Internet. This includes understanding of wireless communication and link layer technologies, multi-access and scheduling mechanisms, mobility models, routing in disconnected networks, energy-efficient edge networking, loss-tolerant transport protocols, and their applications to emerging areas such as vehicular networks, RFID systems and smart buildings. The course also discussed IoT Security and data/content distribution, aggregation, and compression. This course has a strong emphasis on hands-on experience utilizing Raspberry Pi’s, Arduino’s, and NI software radio boards, and a significant part of the course assessment will be based on a final project focused on building a wireless-based application such as indoor localization for IoT devices. Students are encouraged to suggest their own individual projects.
@@ -95,7 +95,7 @@ Students who finish the course satisfactorily will be able to understand, design
 
 *Additional for ECSE-6660:* practical security considerations via advanced labs and individual projects.
 
----
+
 
 ## Assessment
 
@@ -111,7 +111,7 @@ Students who finish the course satisfactorily will be able to understand, design
 *Projects:* groups of two students are typical. 4000- and 6000-level students are discouraged from forming a single group unless approved; in such cases the 6000-level student is expected to complete advanced features independently.
 
 
----
+
 
 ## Course Topics & Schedule (Tentative)
 The schedule and topics are tentative and may change depending on class progress.
@@ -131,7 +131,7 @@ The schedule and topics are tentative and may change depending on class progress
 | 23–25        | Applications |
 | 26–28        | Final project presentations |
 
----
+
 
 ## Other Course Policies
 
